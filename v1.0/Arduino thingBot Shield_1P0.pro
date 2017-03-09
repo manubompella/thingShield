@@ -1,4 +1,4 @@
-update=03/09/17 16:02:47
+update=03/09/17 17:01:09
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,21 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Schematic_Worksheet.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../../kicad-library/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +68,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=AMS1117-3V3
+LibName31=arduino_shieldsNCL
+LibName32=xbee
