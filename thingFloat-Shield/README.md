@@ -1,6 +1,6 @@
-# thingShield
+# thingFloat-Shield
 
-The Arduino shield is designed to be used for multiple use cases without redesigning the hardware. 
+The Arduino shield is designed to be used for water level floats without redesigning the hardware. 
 
 ## Platform Features
 
@@ -8,7 +8,7 @@ The Arduino shield is designed to be used for multiple use cases without redesig
  
 ## Maintainers
 
-The Arduino thingShield is maintained by thingTronics Innovations.
+The thingFloat-Shield is maintained by thingTronics Innovations.
 
 Main contributor:
  * Manohar Bompella @<manohar.bompella@thingtronics.com>
