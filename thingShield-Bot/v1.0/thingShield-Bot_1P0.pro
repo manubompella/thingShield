@@ -1,11 +1,9 @@
-update=4/18/2017 7:10:36 PM
+update=05/27/17 13:51:40
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -39,12 +37,24 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/arduino_shield
-LibName31=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/Songle_SRD-03VDC-SL-C
-LibName32=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/arduino_mega_shield
+LibName30=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/arduino_mega_shield
+LibName31=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/arduino_shield
+LibName32=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/xbee
+LibName33=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/txb0108
+LibName34=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/cnt-rj45_10pin
+[schematic_editor]
+version=1
+PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Schematic_Worksheet.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [pcbnew]
 version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_schematic_layout_RK_SR.kicad_wks
+PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Schematic_Worksheet.kicad_wks
 LastNetListRead=
 PadDrill=0.3
 PadDrillOvalY=0.3
@@ -56,18 +66,10 @@ PcbTextThickness=0.3
 ModuleTextSizeV=1
 ModuleTextSizeH=1
 ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.2
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
+BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[schematic_editor]
+[general]
 version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_Schematic_Worksheet.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=0
