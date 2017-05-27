@@ -1,0 +1,614 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino_shield
+LIBS:Songle_SRD-03VDC-SL-C
+LIBS:arduino_mega_shield
+LIBS:Relay_shield-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "thingShield-Relay"
+Date ""
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LTV-817 U3
+U 1 1 58F072D0
+P 7500 1725
+F 0 "U3" H 7300 1925 50  0000 L CNN
+F 1 "LTV-817" H 7500 1925 50  0000 L CNN
+F 2 "PC817:DIL04" H 7300 1525 50  0001 L CIN
+F 3 "" H 7500 1625 50  0000 L CNN
+	1    7500 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 58F0770C
+P 6950 1625
+F 0 "R2" V 6850 1575 50  0000 L CNN
+F 1 "1K" V 6950 1575 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6950 1625 50  0001 C CNN
+F 3 "" H 6950 1625 50  0000 C CNN
+	1    6950 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 58F077BB
+P 8025 1825
+F 0 "R4" V 7925 1775 50  0000 L CNN
+F 1 "510E" V 8100 1750 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8025 1825 50  0001 C CNN
+F 3 "" H 8025 1825 50  0000 C CNN
+	1    8025 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L MMBT3904 Q2
+U 1 1 58F08B4B
+P 8525 1825
+F 0 "Q2" H 8300 1925 50  0000 L CNN
+F 1 "MMBT3904" H 8100 1650 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8200 2025 50  0001 L CIN
+F 3 "" H 8525 1825 50  0000 L CNN
+	1    8525 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L G5Q-1 RL2
+U 1 1 58F0BAF4
+P 9025 1475
+F 0 "RL2" H 9125 2050 50  0000 L CNN
+F 1 "RELAY_2" H 9100 2200 50  0000 L CNN
+F 2 "relays:Songle_SRS-03VDC-SL" H 9675 1625 50  0001 L CNN
+F 3 "" H 9225 1275 50  0000 C CNN
+	1    9025 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENERsmall D4
+U 1 1 58F0C418
+P 8625 1325
+F 0 "D4" H 8625 1425 50  0000 C CNN
+F 1 "znr diode" H 8600 1250 35  0000 C CNN
+F 2 "Diodes_ThroughHole:D_5W_P10.16mm_Horizontal" H 8625 1325 50  0001 C CNN
+F 3 "" H 8625 1325 50  0000 C CNN
+	1    8625 1325
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 58F0E7F8
+P 8625 2075
+F 0 "#PWR01" H 8625 1825 50  0001 C CNN
+F 1 "GND" H 8625 1925 50  0000 C CNN
+F 2 "" H 8625 2075 50  0000 C CNN
+F 3 "" H 8625 2075 50  0000 C CNN
+	1    8625 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D2
+U 1 1 58F0F707
+P 6950 1825
+F 0 "D2" H 7000 1875 50  0000 L CNN
+F 1 "YELLOW" H 6875 1700 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 6950 1825 50  0001 C CNN
+F 3 "" V 6950 1825 50  0000 C CNN
+	1    6950 1825
+	1    0    0    -1  
+$EndComp
+Text GLabel 6675 1825 0    35   Input ~ 0
+RELAY_2
+$Comp
+L LTV-817 U2
+U 1 1 58F14B2F
+P 7450 3100
+F 0 "U2" H 7250 3300 50  0000 L CNN
+F 1 "LTV-817" H 7450 3300 50  0000 L CNN
+F 2 "PC817:DIL04" H 7250 2900 50  0001 L CIN
+F 3 "" H 7450 3000 50  0000 L CNN
+	1    7450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 58F14B35
+P 6900 3000
+F 0 "R1" V 6800 2950 50  0000 L CNN
+F 1 "1K" V 6900 2950 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6900 3000 50  0001 C CNN
+F 3 "" H 6900 3000 50  0000 C CNN
+	1    6900 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 58F14B3B
+P 7975 3200
+F 0 "R3" V 7875 3150 50  0000 L CNN
+F 1 "510E" V 8050 3125 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7975 3200 50  0001 C CNN
+F 3 "" H 7975 3200 50  0000 C CNN
+	1    7975 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L MMBT3904 Q1
+U 1 1 58F14B41
+P 8475 3200
+F 0 "Q1" H 8250 3300 50  0000 L CNN
+F 1 "MMBT3904" H 8050 3025 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8150 3400 50  0001 L CIN
+F 3 "" H 8475 3200 50  0000 L CNN
+	1    8475 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L G5Q-1 RL1
+U 1 1 58F14B47
+P 8975 2850
+F 0 "RL1" H 9075 3425 50  0000 L CNN
+F 1 "RELAY_1" H 9075 3550 50  0000 L CNN
+F 2 "relays:Songle_SRS-03VDC-SL" H 9625 3000 50  0001 L CNN
+F 3 "" H 9175 2650 50  0000 C CNN
+	1    8975 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENERsmall D3
+U 1 1 58F14B4D
+P 8575 2700
+F 0 "D3" H 8575 2800 50  0000 C CNN
+F 1 "znr diode" H 8550 2625 35  0000 C CNN
+F 2 "Diodes_ThroughHole:D_5W_P10.16mm_Horizontal" H 8575 2700 50  0001 C CNN
+F 3 "" H 8575 2700 50  0000 C CNN
+	1    8575 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58F14B5A
+P 8575 3450
+F 0 "#PWR02" H 8575 3200 50  0001 C CNN
+F 1 "GND" H 8575 3300 50  0000 C CNN
+F 2 "" H 8575 3450 50  0000 C CNN
+F 3 "" H 8575 3450 50  0000 C CNN
+	1    8575 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D1
+U 1 1 58F14B62
+P 6900 3200
+F 0 "D1" H 6950 3250 50  0000 L CNN
+F 1 "YELLOW" H 6825 3075 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 6900 3200 50  0001 C CNN
+F 3 "" V 6900 3200 50  0000 C CNN
+	1    6900 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6625 3200 0    35   Input ~ 0
+RELAY_1
+$Comp
+L ARDUINO_MEGA_SHIELD U1
+U 1 1 58F517FC
+P 1600 4000
+F 0 "U1" H 2250 4350 60  0000 C CNN
+F 1 "ARDUINO_MEGA_SHIELD" H 2300 4450 60  0000 C CNN
+F 2 "Arduino:ARDUINO_MEGA_SHIELD" H 1600 4000 60  0001 C CNN
+F 3 "" H 1600 4000 60  0001 C CNN
+	1    1600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P2
+U 1 1 58F52C6C
+P 4700 5300
+F 0 "P2" H 4700 5950 50  0000 C CNN
+F 1 "RELAY_2_PIN_HEADER" V 4800 5300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 4700 5300 50  0001 C CNN
+F 3 "" H 4700 5300 50  0000 C CNN
+	1    4700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P4
+U 1 1 58F52CD5
+P 5600 5300
+F 0 "P4" H 5600 5950 50  0000 C CNN
+F 1 "RELAY_1_PIN_HEADER" V 5725 5300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 5600 5300 50  0001 C CNN
+F 3 "" H 5600 5300 50  0000 C CNN
+	1    5600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P1
+U 1 1 58F52D38
+P 3975 3400
+F 0 "P1" H 3975 4050 50  0000 C CNN
+F 1 "MEGA_PIN_MAPING" V 4075 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 3975 3400 50  0001 C CNN
+F 3 "" H 3975 3400 50  0000 C CNN
+	1    3975 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1825 7925 1825
+Wire Wire Line
+	8125 1825 8325 1825
+Wire Wire Line
+	8625 1425 8625 1625
+Wire Wire Line
+	8625 1575 9025 1575
+Connection ~ 8625 1575
+Wire Wire Line
+	8625 1225 8625 975 
+Wire Wire Line
+	8325 975  9025 975 
+Wire Wire Line
+	8625 2025 8625 2075
+Wire Wire Line
+	7050 1625 7200 1625
+Wire Wire Line
+	7050 1825 7200 1825
+Wire Wire Line
+	7800 1625 8375 1625
+Wire Wire Line
+	8375 1625 8375 975 
+Connection ~ 8625 975 
+Wire Wire Line
+	6675 1625 6850 1625
+Connection ~ 8375 975 
+Wire Wire Line
+	6675 1825 6850 1825
+Wire Wire Line
+	7750 3200 7875 3200
+Wire Wire Line
+	8075 3200 8275 3200
+Wire Wire Line
+	8575 2800 8575 3000
+Wire Wire Line
+	8575 2950 8975 2950
+Connection ~ 8575 2950
+Wire Wire Line
+	8575 2600 8575 2350
+Wire Wire Line
+	8275 2350 8975 2350
+Wire Wire Line
+	8575 3400 8575 3450
+Wire Wire Line
+	7000 3000 7150 3000
+Wire Wire Line
+	7000 3200 7150 3200
+Wire Wire Line
+	7750 3000 8325 3000
+Wire Wire Line
+	8325 3000 8325 2350
+Connection ~ 8575 2350
+Wire Wire Line
+	6625 3000 6800 3000
+Connection ~ 8325 2350
+Wire Wire Line
+	6625 3200 6800 3200
+Wire Wire Line
+	9275 2350 9275 2300
+Wire Wire Line
+	4500 4750 4500 5850
+Connection ~ 4500 4850
+Connection ~ 4500 5050
+Connection ~ 4500 4950
+Connection ~ 4500 5150
+Connection ~ 4500 5250
+Connection ~ 4500 5350
+Connection ~ 4500 5450
+Connection ~ 4500 5550
+Connection ~ 4500 5650
+Connection ~ 4500 5750
+Wire Wire Line
+	5400 4750 5400 5850
+Connection ~ 5400 4850
+Connection ~ 5400 4950
+Connection ~ 5400 5050
+Connection ~ 5400 5150
+Connection ~ 5400 5250
+Connection ~ 5400 5350
+Connection ~ 5400 5450
+Connection ~ 5400 5550
+Connection ~ 5400 5650
+Connection ~ 5400 5750
+Wire Wire Line
+	3550 3950 3775 3950
+Wire Wire Line
+	3550 3850 3775 3850
+Wire Wire Line
+	3550 3750 3775 3750
+Wire Wire Line
+	3550 3650 3775 3650
+Wire Wire Line
+	3775 3550 3550 3550
+Wire Wire Line
+	3550 3450 3775 3450
+Wire Wire Line
+	3775 3350 3550 3350
+Wire Wire Line
+	3550 3350 3550 3300
+Wire Wire Line
+	3550 3200 3775 3200
+Wire Wire Line
+	3775 3200 3775 3250
+Wire Wire Line
+	3775 3150 3775 3100
+Wire Wire Line
+	3775 3100 3550 3100
+Wire Wire Line
+	3775 3050 3775 3000
+Wire Wire Line
+	3775 3000 3550 3000
+Wire Wire Line
+	3775 2950 3775 2900
+Wire Wire Line
+	3775 2900 3550 2900
+Wire Wire Line
+	3775 2850 3775 2800
+Wire Wire Line
+	3775 2800 3550 2800
+Wire Wire Line
+	5250 5750 5400 5750
+Wire Wire Line
+	4375 5750 4500 5750
+NoConn ~ 950  2650
+NoConn ~ 950  2850
+NoConn ~ 950  3150
+NoConn ~ 950  3250
+NoConn ~ 950  3450
+NoConn ~ 950  3550
+NoConn ~ 950  3650
+NoConn ~ 950  3750
+NoConn ~ 950  3850
+NoConn ~ 950  3950
+NoConn ~ 950  4050
+NoConn ~ 950  4150
+NoConn ~ 950  4350
+NoConn ~ 950  4450
+NoConn ~ 950  4550
+NoConn ~ 950  4650
+NoConn ~ 950  4750
+NoConn ~ 950  4850
+NoConn ~ 950  4950
+NoConn ~ 950  5050
+NoConn ~ 1450 5050
+NoConn ~ 1550 5050
+NoConn ~ 1650 5050
+NoConn ~ 1750 5050
+NoConn ~ 1850 5050
+NoConn ~ 1950 5050
+NoConn ~ 2050 5050
+NoConn ~ 2150 5050
+NoConn ~ 2250 5050
+NoConn ~ 2350 5050
+NoConn ~ 2450 5050
+NoConn ~ 2550 5050
+NoConn ~ 2650 5050
+NoConn ~ 2750 5050
+NoConn ~ 2850 5050
+NoConn ~ 2950 5050
+NoConn ~ 3050 5050
+NoConn ~ 3150 5050
+NoConn ~ 1450 5950
+NoConn ~ 1550 5950
+NoConn ~ 1650 5950
+NoConn ~ 1750 5950
+NoConn ~ 1850 5950
+NoConn ~ 1950 5950
+NoConn ~ 2050 5950
+NoConn ~ 2150 5950
+NoConn ~ 2250 5950
+NoConn ~ 2350 5950
+NoConn ~ 2450 5950
+NoConn ~ 2550 5950
+NoConn ~ 2650 5950
+NoConn ~ 2750 5950
+NoConn ~ 2850 5950
+NoConn ~ 2950 5950
+NoConn ~ 3050 5950
+NoConn ~ 3150 5950
+NoConn ~ 3550 4300
+NoConn ~ 3550 4400
+NoConn ~ 3550 4500
+NoConn ~ 3550 4600
+NoConn ~ 3550 4700
+NoConn ~ 3550 4800
+NoConn ~ 3550 4900
+NoConn ~ 3550 5000
+NoConn ~ 3550 4050
+NoConn ~ 3550 4150
+NoConn ~ 3550 2700
+NoConn ~ 3550 2600
+NoConn ~ 3550 2500
+NoConn ~ 3550 2400
+Text GLabel 4700 3400 0    35   Input ~ 0
+5V
+$Comp
+L GND #PWR03
+U 1 1 58F62ECC
+P 775 3050
+F 0 "#PWR03" H 775 2800 50  0001 C CNN
+F 1 "GND" H 775 2900 50  0000 C CNN
+F 2 "" H 775 3050 50  0000 C CNN
+F 3 "" H 775 3050 50  0000 C CNN
+	1    775  3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3050 775  3050
+Text GLabel 825  2950 0    35   Input ~ 0
+5V
+Wire Wire Line
+	825  2950 950  2950
+$Comp
+L CONN_01X02 P3
+U 1 1 58F64922
+P 5000 3350
+F 0 "P3" H 5000 3500 50  0000 C CNN
+F 1 "5V_TO_RELAY_VCC_CONN" V 5125 3425 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5000 3350 50  0001 C CNN
+F 3 "" H 5000 3350 50  0000 C CNN
+	1    5000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3400 4800 3400
+Text GLabel 4700 3300 0    35   Input ~ 0
+RELAY_VCC
+Wire Wire Line
+	4700 3300 4800 3300
+$Comp
+L CONN_01X03 P5
+U 1 1 58F6F0F6
+P 10050 1250
+F 0 "P5" H 10050 1450 50  0000 C CNN
+F 1 "RELAY_2_CON" V 10150 1250 50  0000 C CNN
+F 2 "Connectors:gmkds_3-3-5,08" H 10050 1250 50  0001 C CNN
+F 3 "" H 10050 1250 50  0000 C CNN
+	1    10050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P6
+U 1 1 58F6F16B
+P 10250 2625
+F 0 "P6" H 10250 2825 50  0000 C CNN
+F 1 "RELAY_1_CON" V 10350 2650 50  0000 C CNN
+F 2 "Connectors:gmkds_3-3-5,08" H 10250 2625 50  0001 C CNN
+F 3 "" H 10250 2625 50  0000 C CNN
+	1    10250 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9325 975  9325 875 
+Wire Wire Line
+	9325 875  9800 875 
+Wire Wire Line
+	9800 875  9800 1150
+Wire Wire Line
+	9800 1150 9850 1150
+Wire Wire Line
+	9525 975  9700 975 
+Wire Wire Line
+	9700 975  9700 1350
+Wire Wire Line
+	9700 1350 9850 1350
+Wire Wire Line
+	9425 1575 9775 1575
+Wire Wire Line
+	9775 1575 9775 1250
+Wire Wire Line
+	9775 1250 9850 1250
+Wire Wire Line
+	9375 2950 9900 2950
+Wire Wire Line
+	9900 2950 9900 2625
+Wire Wire Line
+	9900 2625 10050 2625
+Wire Wire Line
+	9475 2350 9825 2350
+Wire Wire Line
+	9825 2350 9825 2725
+Wire Wire Line
+	9825 2725 10050 2725
+Wire Wire Line
+	9275 2300 10050 2300
+Wire Wire Line
+	10050 2300 10050 2525
+Text Notes 10200 1150 0    35   ~ 0
+NC
+Text Notes 10200 1375 0    35   ~ 0
+NO\n
+Text Notes 10425 2550 0    35   ~ 0
+NC
+Text Notes 10425 2675 0    35   ~ 0
+CM\n
+Text Notes 10425 2775 0    35   ~ 0
+NO\n
+Text Notes 10200 1275 0    35   ~ 0
+CM\n
+Text GLabel 4375 5750 0    35   Input ~ 0
+RELAY_2
+Text GLabel 5250 5750 0    35   Input ~ 0
+RELAY_1
+Text GLabel 8275 2350 0    35   Input ~ 0
+RELAY_VCC
+Text GLabel 8325 975  0    35   Input ~ 0
+RELAY_VCC
+Text GLabel 6675 1625 0    35   Input ~ 0
+RELAY_VCC
+Text GLabel 6625 3000 0    35   Input ~ 0
+RELAY_VCC
+$Comp
+L CONN_01X02 P7
+U 1 1 58F8D786
+P 5025 3975
+F 0 "P7" H 5025 4125 50  0000 C CNN
+F 1 "EXT_PWR" V 5125 3975 50  0000 C CNN
+F 2 "Connectors:gmkds_3-2-5,08" H 5025 3975 50  0001 C CNN
+F 3 "" H 5025 3975 50  0000 C CNN
+	1    5025 3975
+	1    0    0    -1  
+$EndComp
+Text GLabel 4725 3925 0    35   Input ~ 0
+RELAY_VCC
+Wire Wire Line
+	4725 3925 4825 3925
+$Comp
+L GND #PWR04
+U 1 1 58F90108
+P 4725 4025
+F 0 "#PWR04" H 4725 3775 50  0001 C CNN
+F 1 "GND" H 4725 3875 50  0000 C CNN
+F 2 "" H 4725 4025 50  0000 C CNN
+F 3 "" H 4725 4025 50  0000 C CNN
+	1    4725 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 4025 4825 4025
+NoConn ~ 950  2750
+$EndSCHEMATC
