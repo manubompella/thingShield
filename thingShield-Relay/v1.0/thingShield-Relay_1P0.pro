@@ -1,4 +1,4 @@
-update=4/18/2017 7:10:36 PM
+update=05/27/17 14:27:15
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,7 +8,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../kicad-library/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -35,16 +35,26 @@ LibName22=philips
 LibName23=display
 LibName24=cypress
 LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-LibName30=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/arduino_shield
-LibName31=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/Songle_SRD-03VDC-SL-C
-LibName32=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/arduino_mega_shield
+LibName26=atmel
+LibName27=contrib
+LibName28=valves
+LibName29=arduino_mega_shield
+LibName30=opto
+LibName31=Songle_SRD-03VDC-SL-C
+LibName32=opto-other
+[schematic_editor]
+version=1
+PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Schematic_Worksheet.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [pcbnew]
 version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_schematic_layout_RK_SR.kicad_wks
+PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Schematic_Worksheet.kicad_wks
 LastNetListRead=
 PadDrill=0.3
 PadDrillOvalY=0.3
@@ -61,13 +71,3 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_Schematic_Worksheet.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=0

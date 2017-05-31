@@ -28,18 +28,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:arduino_mega_shield
-LIBS:arduino_shield
-LIBS:xbee
-LIBS:txb0108
-LIBS:cnt-rj45_10pin
+LIBS:thingShield-Bots-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "thingShield-Bots"
+Date "2017-05-27"
 Rev ""
 Comp ""
 Comment1 ""
